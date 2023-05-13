@@ -1,118 +1,165 @@
+/* style.css */
+
+/* Reset default browser styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-}
-header{
-    text-align:center;
-}
-.container{
-    max-width:1200px;
-    margin:auto;
-}
-nav{
-    background-color:rgb(182, 255, 245);
-    border-radius: 5px;
-}
-nav ul{
-    list-style:none;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-nav a{
-    color:red;
-    font-size: 30px;
-    text-decoration: none;
-    font-weight: bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-div ul{
-    display:flex;
-    justify-content:space-between;
-    list-style:none;
-}
-.product-hot {
-    margin-left:30px;
-    font-weight: bold;
-    font-size: larger;
-}
-.products_menu{
-    
-    margin: auto;
-    margin-top: 30px;
-    border: 1px solid lightblue;
-    width: 100%;
-    background-color: rgb(156, 156, 156);
-    border-radius: 10px;
-    padding-bottom:10px;
-    margin-bottom: 10px;
-}
-.products_menu ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    word-wrap: break-word;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-.products_menu li {
-    color: black;
-    
-    list-style: none;
-    
-}
-.product{
-    border-width: 2px;
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    height:400px;
-    width: 300px;
-}
-.pc-set{
-    display: flex;
-}
-.information{
-    display:flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-.information div{
-    float:right;
-}
-#aboutus{
-    margin-right:auto;
-    padding: 10px;
-    width: 100%;
-    font-size:20px;
-}
-#aboutus div{
-    display: flex;
-    justify-content: space-between;
-}
-#aboutus p{
-    float:left;
-}
-#linhkien{
-    float:right;
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.5;
 }
 
-#adress{
-    margin-top:10px;
-    margin-left:auto;
-    padding: 10px;
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
-#adress img{
-    float:left;
-    margin-right:100px;
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
-#adress div{
-    float:right;
-    font-size:20px;
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section */
+#hero {
+  background-image: url("hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+}
+
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Featured products section */
+#featured-products {
+  background-color: #fff;
+  padding: 40px;
+}
+
+#featured-products h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 296px;
+  height: 240px;
+  margin-right: 20px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 16px;
+  color: #888;
+}
+
+/* About us section */
+#about-us {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+#about-us h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 16px;
+  color: #888;
+}
+
+/* Contact section */
+#contact {
+  background-color: #fff;
+  padding: 40px;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
