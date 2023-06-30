@@ -6,7 +6,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background-image: url("https://www.ngoisaoso.vn/uploads/news/2014/10/13/31.jpg");
+    background-image: url("https://res.klook.com/image/upload/q_85/c_fill,w_1360/v1656645109/blog/qg6zpgd9w1bgycw7qaln.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,6 +101,7 @@
   .product p {
     font-size: 16px;
     color: #888;
+    font-weight: bold;
   }
   
   #about-us {
@@ -155,4 +156,5 @@
     padding: 20px;
     text-align: center;
   }
+  
   
